@@ -33,6 +33,8 @@ body {
   height: 200px;
   border: 10px darkblue solid;
   transform-style: preserve-3d;
+  transform: rotateX(180deg);
+  transition: transform 0.5s ease-in-out;
 }
 
 .card img {
@@ -55,5 +57,5 @@ body {
 }
 
 .card-show {
-  transform: rotateX(180deg);
+  transform: rotateX(0deg);
 }
